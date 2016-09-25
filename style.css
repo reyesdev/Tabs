@@ -1,2 +1,2 @@
-.tabs input[type="radio"]{position:absolute;z-index:3}.tabs input[type="radio"]+label:after{content:'';display:inline-block;position:relative;border:1px solid red;width:150px;height:30px;background-color:none}
+.tabs{display:flex;flex-direction:row;position:relative;max-width:300px}.tabs label{border:1px solid red;width:150px;height:30px}.tabs input[type="radio"]{position:absolute;z-index:1}.tabs input[type="radio"]+div{min-height:300px;width:100%;background-color:blue;position:absolute;left:0;z-index:2}.tabs input[type="radio"]:checked+div{background-color:red;position:absolute;z-index:3}
 /*# sourceMappingURL=style.css.map */
